@@ -1,5 +1,5 @@
-// const axios = require('axios');
 import axios from "axios";
+
 
 const BASE_URL = 'https://booking-com.p.rapidapi.com/v1';
 const options = {
@@ -37,9 +37,3 @@ getHotels();
 
 
 
-// try {
-// 	const response = await axios.request(options);
-// 	console.log(response.data);
-// } catch (error) {
-// 	console.error(error);
-// }
